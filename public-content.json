@@ -1,0 +1,192 @@
+{
+  "identity": {
+    "email": "ishtiaqahmad.connect@gmail.com"
+  },
+  "projects": [
+    {
+      "name": "WifiWala (TezNet)",
+      "pitch": "A multi-tenant ISP management and billing platform.",
+      "problem": "ISPs require robust, role-based platforms to manage subscriber authentication, subdealers, and billing cycles securely.",
+      "what_i_built": "A production SaaS platform with Superadmin, ISP Admin, Subdealer, and Subscriber portals, featuring automated background synchronization.",
+      "architecture": "Django backend with a PostgreSQL database, integrating FreeRADIUS and MikroTik RouterOS API. It utilizes Redis and Celery for background jobs and is deployed via Docker on AWS Lightsail.",
+      "stack": [
+        "Django",
+        "PostgreSQL",
+        "FreeRADIUS",
+        "Redis",
+        "Celery",
+        "Docker",
+        "AWS Lightsail"
+      ],
+      "role": "Backend Developer",
+      "measurable_outcome": "WifiWala has 1 paying ISP client and ~100 users.",
+      "status": "Live",
+      "public_links": [
+        "wifiwala.online"
+      ],
+      "client_confidential": false,
+      "feature_priority": 10
+    },
+    {
+      "name": "Student Headcount Computer Vision Pipeline (PMIU)",
+      "pitch": "Automated student attendance tracking pipeline deployed across government schools.",
+      "problem": "Manual daily student headcounts across hundreds of schools are inefficient and prone to reporting errors.",
+      "what_i_built": "",
+      "architecture": "",
+      "stack": [
+        "Django REST Framework",
+        "YOLOv8",
+        "PostgreSQL",
+        "Ubuntu"
+      ],
+      "role": "Software Engineering Intern",
+      "measurable_outcome": "Processed daily headcount images across 200+ government schools.",
+      "status": "Archived",
+      "public_links": [],
+      "client_confidential": true,
+      "feature_priority": 9
+    },
+    {
+      "name": "Vision-Based Autonomous Car (FYP)",
+      "pitch": "An edge-computed 1:16 scale robotic vehicle with indoor positioning and lane tracking.",
+      "problem": "Bringing low-latency autonomous navigation and computer vision capabilities to hardware without cloud dependency.",
+      "what_i_built": "A hardware-integrated FastAPI backend handling overhead camera coordinates, manual/autonomous switching, and telemetry.",
+      "architecture": "FastAPI backend running on a Raspberry Pi 5 orchestrating pigpio hardware PWM and WebSockets. The vision pipeline utilizes YOLOv8 NCNN models, OpenCV line tracking, and an ArUco QR code system.",
+      "stack": [
+        "FastAPI",
+        "Raspberry Pi 5",
+        "OpenCV",
+        "WebSockets",
+        "NCNN"
+      ],
+      "role": "Backend & Systems Integrator",
+      "measurable_outcome": null,
+      "status": "In progress",
+      "public_links": [],
+      "client_confidential": false,
+      "feature_priority": 9
+    },
+    {
+      "name": "The Judge",
+      "pitch": "An automated, containerized code evaluation platform.",
+      "problem": "Safely and concurrently executing untrusted user code while providing real-time evaluation metrics.",
+      "what_i_built": "A Django REST API handling multi-language code submissions, isolated execution, and structured result reporting.",
+      "architecture": "Django REST backend connected to a normalized PostgreSQL schema. It utilizes a Docker-containerized execution engine to run code safely and sends real-time analytics to a JavaScript frontend.",
+      "stack": [
+        "Django",
+        "Python",
+        "Docker",
+        "PostgreSQL",
+        "JavaScript"
+      ],
+      "role": "Full-Stack Developer",
+      "measurable_outcome": null,
+      "status": "In progress",
+      "public_links": [],
+      "client_confidential": false,
+      "feature_priority": 8
+    },
+    {
+      "name": "GallaMandi (Wahab Traders / Khatta / Pesticide POS)",
+      "pitch": "A full-stack agricultural CRM, ledger, and POS system for commission agents.",
+      "problem": "Agricultural commission agents (Arhtis) lack digitized systems for managing complex ledgers (Khata), crop purchases, and fertilizer inventory.",
+      "what_i_built": "A full-stack web and mobile application to manage daily ledgers, purchases, and integrated pesticide POS tracking.",
+      "architecture": "React frontend backed by a Django API and PostgreSQL database, fully containerized via Docker.",
+      "stack": [
+        "React",
+        "Django",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "role": "Full-Stack Developer",
+      "measurable_outcome": null,
+      "status": "In progress",
+      "public_links": [],
+      "client_confidential": false,
+      "feature_priority": 7
+    },
+    {
+      "name": "AirNet WhatsApp Chatbot",
+      "pitch": "An LLM-powered WhatsApp bot for ISP CRM automation.",
+      "problem": "ISPs spend too much time handling routine subscriber queries and manually extracting details from rigid admin panels.",
+      "what_i_built": "A scraper for the AirNet Broadband panel integrated with a WhatsApp chatbot featuring conversational memory.",
+      "architecture": "A Python web scraper extracts subscriber details and feeds them to an LLM-backed logic engine, routing automated responses through the WhatsApp API.",
+      "stack": [
+        "Python",
+        "WhatsApp API",
+        "LLM Integration"
+      ],
+      "role": "Backend Developer",
+      "measurable_outcome": null,
+      "status": "Archived",
+      "public_links": [],
+      "client_confidential": false,
+      "feature_priority": 6
+    },
+    {
+      "name": "WhatsApp Interview Bot",
+      "pitch": "A personal technical interview assistant accessible directly via WhatsApp.",
+      "problem": "Practicing technical questions needs to be frictionless and integrated into daily communication habits.",
+      "what_i_built": "A conversational bot designed to generate technical MCQs and simulate interview questions for personal study.",
+      "architecture": "Python backend utilizing the WhatsApp API to dynamically generate, send, and evaluate technical queries.",
+      "stack": [
+        "Python",
+        "WhatsApp API"
+      ],
+      "role": "Developer",
+      "measurable_outcome": null,
+      "status": "Archived",
+      "public_links": [],
+      "client_confidential": false,
+      "feature_priority": 4
+    },
+    {
+      "name": "IDM Clone",
+      "pitch": "A custom file downloading application.",
+      "problem": "Learning the complexities of concurrent multi-threading and chunked file downloading.",
+      "what_i_built": "A desktop-based application structure focused on file chunking, network requests, and managing download queues.",
+      "architecture": "Python application structured to handle concurrent network I/O operations and file system management.",
+      "stack": [
+        "Python"
+      ],
+      "role": "Developer",
+      "measurable_outcome": null,
+      "status": "Archived",
+      "public_links": [],
+      "client_confidential": false,
+      "feature_priority": 3
+    }
+  ],
+  "achievements": [
+    {
+      "title": "National Skill Competency Test (NSCT) for IT Graduates",
+      "detail": "98.5th percentile (top 1.5%)",
+      "year": "2026"
+    },
+    {
+      "title": "SoftCom Speed Programming Competition",
+      "detail": "1st Place",
+      "year": "2026"
+    },
+    {
+      "title": "Tec Vista Speed Programming Contest",
+      "detail": "1st Place",
+      "year": "2026"
+    },
+    {
+      "title": "techFiesta Speed Programming Competition",
+      "detail": "1st Place",
+      "year": "2025"
+    },
+    {
+      "title": "ICTSE Speed Programming Competition",
+      "detail": "1st Place",
+      "year": "2025"
+    },
+    {
+      "title": "LeetCode",
+      "detail": "200+ algorithmic problems solved",
+      "year": "2026"
+    }
+  ]
+}

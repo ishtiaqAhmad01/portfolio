@@ -1,0 +1,17 @@
+{
+  "name": "ishtiaq-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predev": "node scripts/prepare-content.mjs",
+    "prebuild": "node scripts/prepare-content.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

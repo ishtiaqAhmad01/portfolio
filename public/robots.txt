@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ishtiaq.me/sitemap.xml
